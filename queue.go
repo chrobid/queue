@@ -33,19 +33,18 @@ func (q *Queue) Push(i int) {
 
 // Pop returns the head from the queue, and removes it from the queue
 func (q *Queue) Pop() (i int) {
-	// if you pop from an empty queue, it returns zero. I'm not sure if I'm OK with this behavior.
+	// if you pop from an empty queue, it returns zero. I'm not sure if this behavior is OK.
 	if q.head == nil {
 		return
 	} else if q.head == q.tail {
 		i = q.head.data
 		q.head, q.tail = nil, nil
-		return i
 	} else {
 		i = q.head.data
 		q.head = q.head.prev
 		q.head.next = nil
-		return i
 	}
+	return
 }
 
 // IsEmpty returns true if the queue is empty, and false if it's not
