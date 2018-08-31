@@ -16,6 +16,4 @@ My main goals were:
 * Implement a queue without using arrays as the underlying data structure
 * Package it, put it on github, and use it in another program while adhering to Go idioms wrt packaging and distribution
 
-I had never done any of the above before, and I learned so much in the process :)
-
-
+I had never done any of these things before, and I learned so much in the process!
