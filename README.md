@@ -1,7 +1,7 @@
 # queue
 This is an integer queue! It's very simple and is a learning project for me. As far as I can tell, it's a dequeue using a doubly linked list.
 
-A cutesy program to play with this queue exists at https://github.com/chrobid/queueplay
+A cutesy program that lets you play with this queue exists at https://github.com/chrobid/queueplay
 
 To use queueplay to play with this queue:
 1. [Install go](https://golang.org/doc/install)
