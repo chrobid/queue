@@ -56,12 +56,11 @@ func (q *Queue) IsEmpty() bool {
 }
 
 // ToArray returns an array containing all nodes in the queue
-func (q *Queue) ToArray() []int {
-	var nodes []int
+func (q *Queue) ToArray() (nodes []int) {
 	currentNode := q.tail
 	for currentNode != nil {
 		nodes = append(nodes, currentNode.data)
 		currentNode = currentNode.next
 	}
-	return nodes
+	return
 }
