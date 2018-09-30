@@ -3,7 +3,7 @@ This is an integer queue! It's very simple and is a learning project for me. As 
 
 A cutesy program that lets you play with this queue exists at https://github.com/chrobid/queueplay
 
-To use queueplay to play with this queue, [install go](https://golang.org/doc/install), then:
+To use queueplay to play with this queue, [install Go](https://golang.org/doc/install), then:
 
     cd ~/go/src/
     git clone https://github.com/chrobid/queueplay.git
